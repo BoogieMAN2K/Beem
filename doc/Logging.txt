@@ -1,0 +1,58 @@
+BEEM : Boost Your Eyes, Ears, and Mouth
+---------------------------------------
+
+This little document attempt to explain how the Log should be made in Beem.
+
+Logging Usage
+-------------
+
+Before
+  Many use of android.utils.Log.* with different LOGTAG. Often it
+  uses the class name as a LOGTAG. This cause confusion in logcat because it
+  is hard to say for which application the tag is from.
+
+Hopefully now
+  The class com.google.android.apps.iosched.util.LogUtils allow to unify the
+  Log.
+  The method makeLogTag() add a prefix to the tag made by the
+  application (current prefix is "Beem-").
+  This class also implement the best practices for log on the Android
+  platform. Each Log call is preceed by an isLoggable() call to check if the
+  application should do Logging at this LogLevel.
+  Also on release build, verbose logs will not be printed.
+  The drawback of this is that all logs are not visible by default and require
+  little work to make them appears.
+
+Usage of Log levels
+-------------------
+
+VERBOSE: for log messages in low level layers, that should be necessary only
+for the developers.
+
+DEBUG: for log messages which allow to debug the application by retrieving
+info not easilly retrieved and not necessary to the user.
+
+INFO: for log informational message potentially usefull to the the user.
+
+WARNING: to log bad events but handled by the application. The LOGW(TAG,
+"message", exception) is particularly usefull
+
+ERROR: to log fatal error. Typically crash or other unexpected errors.
+
+Showing all logs
+----------------
+
+As specified in the javadoc for android.util.Log :
+
+The default level of any tag is set to INFO. This means that any level above and including
+INFO will be logged. Before you make any calls to a logging method you should check to see
+if your tag should be logged. You can change the default level by setting a system property:
+'setprop log.tag.<YOUR_LOG_TAG> <LEVEL>'
+Where level is either VERBOSE, DEBUG, INFO, WARN, ERROR, ASSERT, or SUPPRESS. SUPPRESS will
+turn off all logging for your tag. You can also create a local.prop file that with the
+following in it:
+'log.tag.<YOUR_LOG_TAG>=<LEVEL>'
+and place that in /data/local.prop.
+
+Don't forget that your LOG_TAG is prefixed by "Beem-"
+

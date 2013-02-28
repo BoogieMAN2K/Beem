@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- Generic terms -->
+	<string name="app_name">Beem</string>
+	<string name="OkButton">Ok</string>
+	<string name="ClearButton">Vymazat</string>
+	<string name="CancelButton">Zrušit</string>
+	<string name="AcceptButton">Autorizovat</string>
+	<string name="RefuseButton">Odmítnout</string>
+	<string name="JabberID">Jabber ID</string>
+	<string name="Password">Heslo</string>
+	<string name="Continue">Pokračovat</string>
+
+	<!--  AccountConfigure class -->
+	<string name="AccountConfigureManualConfiguration">Ruční konfigurace</string>
+
+	<!--  BeemService class -->
+	<string name="BeemServiceDescription">Use Beem Service</string>
+
+	<!--  ContactDialog class -->
+	<string name="CDChat">Chat</string>
+	<string name="CDCall">Volání</string>
+	<string name="CDInfos">Správa uživatele</string>
+
+	<!-- AddContact class -->
+	<string name="AddCActTitle">Beem - Přidání kontaktu</string>
+
+	<string name="AddCLogin">Jméno uživatele</string>
+	<string name="AddCAlias">Přezdívka</string>
+	<string name="AddCGroup">Skupina</string>
+	<string name="AddCOkButton">Přidat</string>
+	<string name="AddCContactAdded">Kontakt přidán</string>
+	<string name="AddCContactAddedError">Chyba kontakt nebyl přidán</string>
+	<string name="AddCContactAddedLoginError">Error Login</string>
+	<string name="AddCContactAlready">Kontakt již existuje</string>
+
+	<!--  ChangeStatus class -->
+	<string name="ChangeStatusActTitle">Beem - Změna statusu</string>
+	<string name="ChangeStatusType">Můj status</string>
+	<string name="OpenContactList">Otevřít seznam kontaktů</string>
+	
+	<string name="ChangeStatusOk">Aktualizuji status</string>
+	<string name="my_avatar">Můj avatar</string>
+	<string name="select_avatar">Vybrat avatar</string>
+	<string name="take_photo">Vytvořit fotografii</string>
+	<string name="pick_photo">Vybrat obrázek</string>
+	<string name="delete_avatar">Žádný avatar</string>
+	<string name="photoPickerNotFoundText">Fotoaparát nebo kamera nenalezeny</string>
+
+
+	<!-- Settings class -->
+	<string name="SettingsProxy">Proxy</string>
+	<string name="SettingsProxyProxy">Použít proxy server</string>
+	<string name="SettingsProxySummary">Připojit se přes proxy server</string>
+	<string name="SettingsProxyType">Protokol</string>
+	<string name="SettingsProxyTypeSummary">Vybrat typ proxy serveru</string>
+	<string name="SettingsProxyServer">Upravit adresu proxy serveru</string>
+	<string name="SettingsProxyPort">Upravit port proxy serveru</string>
+	<string name="SettingsProxyUser">Volitelné, uživatelské jméno pro ověření na proxy serveru</string>
+	<string name="SettingsProxyPassword">Volitelné, heslo pro ověření na proxy serveru</string>
+	<string name="SettingsAdvanced">Rozšířené</string>
+	<string name="SettingsAdvancedOptions">Specifická nastavení serveru</string>
+	<string name="SettingsAdvancedRecoDelay">Upraví prodlevu mezi pokusy o připojení</string>
+	<string name="SettingsAdvancedSpecOpt">Zaškrtněte tuto volbu pokud chcete pro připojení použít specifický server</string>
+	<string name="SettingsAdvancedAddOpt">Upravit adresu serveru</string>
+	<string name="SettingsAdvancedPortOpt">Upravit port serveru</string>
+	<string name="SettingsResourceTitle">Zdroj</string>
+	<string name="SettingsPriorityTitle">Priorita</string>
+	<string name="SettingsResourceSummary">Nastavení názvu zdroje pro XMPP klienta</string>
+	<string name="SettingsPrioritySummary">Nastavení priority klienta</string>
+	<string name="contact_list_preferences">Seznam kontaktů</string>
+	<string name="contact_list_preferences_sum">Nastavení zobrazení pro váš seznam kontaktů
+	</string>
+	<string name="CLP_hide_groups">Skrýt skupiny</string>
+	<string name="CLP_hide_groups_sum">Aktuvujte tuto volbu pro skrytí skupin</string>
+	<string name="CLP_show_jid">Zobrazit JID</string>
+	<string name="CLP_show_jid_sum">Zaškrtněte tuto volbu pokud chcete vždy zobrazovat JID kontaktu</string>
+	<string name="CLP_hidden_contact">Skrýt odpojené</string>
+	<string name="CLP_hidden_contact_sum">Zaškrtněte pro skrytí odpojených kontaktů
+	</string>
+	<string name="settings_account_username">Název účtu (JID)</string>
+	<string name="settings_account_password">Heslo</string>
+	<string name="settings_account_server">Server</string>
+	<string name="settings_account_port">Port</string>
+	<string name="settings_advanced_service_behaviour">Chování služby</string>
+	<string name="settings_advanced_sum">Nastavení voleb pro pokročilé uživatele</string>
+	<string name="settings_xmpp_server">Adresa</string>
+	<string name="comments_xmpp_server">example.com</string>
+	<string name="settings_xmpp_port">Port</string>
+	<string name="settings_xmpp_use_tls">Vyžadovat SSL/TLS</string>
+	<string name="settings_reco_delay">Prodleva opakování pokusu o připojení</string>
+	<string name="comments_xmpp_port">Výchozí: 5222</string>
+	<string name="settings_proxy_sum">Nastavení proxy</string>
+	<string name="settings_proxy_use">Připojit prostřednictvím proxy</string>
+	<string name="settings_proxy_type_prompt">Vyberte typ proxy</string>
+	<string name="settings_proxy_server">Server</string>
+	<string name="settings_proxy_port">Port</string>
+	<string name="comments_proxy_port">Výchozí: 1080</string>
+	<string name="settings_proxy_username">Uživatel</string>
+	<string name="settings_proxy_password">Heslo</string>
+	<string name="away_chk_title">Povolit automatické \"Pryč\"</string>
+	<string name="away_chk_sum">Změní status na \"Pryč\" při zhasnutí obrazovky</string>
+	<string name="away_message_title">Zpráva pro stav \"Pryč\"</string>
+	<string name="away_message_sum">Zpráva která bude zobrazována při stavu \"Pryč\"</string>
+	<string name="away_message_hint">Jsem pryč, display mého telefonu je vypnutý</string>
+	<string name="notification_preferences">Nastavení oznamování</string>
+	<string name="notification_enable_vibrate_title">Povolit vybrace</string>
+	<string name="notification_enable_vibrate_sum">Povolit vibrace při přijetí zprávy</string>
+	<string name="notification_snd_title">Vyzvánění při přijetí zprávy</string>
+	<string name="notification_snd_sum">Nastaví zvuk přehraný při přijetí zprávy</string>
+	<string name="settings_chat_compact">Kompaktní chat</string>
+	<string name="settings_chat_compact_sum">Nastaví pro okno kontaktů kompaktní zobrazení</string>
+	<string name="history">Historie</string>
+	<string name="history_sum">Zaškrtněte pro ukládání konverzací na SD kartu</string>
+	<string name="chat_preferences">Chat</string>
+	<string name="chat_preferences_sum">Historie, rozložení, velikost ...</string>
+	<string name="chat_history_path">Cesta k historii</string>
+	<string name="chat_history_path_sum">Konverzace z chatu jsou ukládány na SD kartu</string>
+	<string name="settings_smack_debug">Enable XMPP debug</string>
+	<string name="settings_full_jid_login">Použít plné JID jako jméno uživatele</string>
+	<string name="settings_full_jid_login_sum">Vyžadováno některými serveru jako například Google Talk</string>
+
+	<!-- Subscription class -->
+	<string name="SubscriptAccept">Subscription accepted</string>
+	<string name="SubscriptError">Subscription error</string>
+	<string name="SubscriptRefused">Subscription refused</string>
+	<string name="SubscriptText">%s si tě chce přidat do seznamu kontaktů. Autorizovat tento kontakt?</string>
+	<string name="SubscriptTitle">Autorizovat kontakt?</string>
+
+	<!--  BeemBroadcastReceiver class -->
+	<string name="BeemBroadcastReceiverDisconnect">BEEM: Byl jste odpojen</string>
+
+	<!--  XmppConnectionAdapter class -->
+	<string name="AcceptContactRequest">%s si tě právě přidal do seznamu kontaktů..</string>
+	<string name="AcceptContactRequestFrom">Authorizuje %s pro komunikaci s vámi.</string>
+
+	<!-- Activities -->
+	<string name="edit_settings_name">Beem - Nastavení</string>
+	<string name="create_account_name">Beem - Vytvořit účet</string>
+	<string name="contact_list_name">Beem - Kontakty</string>
+	<string name="user_info_name">Beem - Informace o uživateli</string>
+
+	<!-- LogAs Activity -->
+	<string name="login_menu_settings">Nastavení</string>
+	<string name="login_menu_about">O programu</string>
+	<string name="login_about_title">Beem %s - o programu</string>
+	<string name="login_about_msg">
+		Beem je inovativní projekt od EPITECH. Navštivte nás na
+		http://www.beem-project.com !
+	</string>
+	<string name="login_about_button">Zavřít</string>
+	<string name="login_login_progress">Připojuji se. Prosím čekejte...</string>
+	<string name="login_menu_login">Přihlášení</string>
+	<string name="login_start_msg">Settings configuration in menu</string>
+
+	<!-- LoginAnim activity -->
+	<string name="loganim_connecting">Připojování ...</string>
+	<string name="loganim_authenticating">Ověřování ...</string>
+	<string name="loganim_login_success">Úspěšně přihlášen</string>
+	<string name="loganim_login_failed">Přihlášení se nezdařilo</string>
+
+	<!-- EditSettings Activity -->
+	<string name="settings_menu_create_account">Vytvořit účet</string>
+	<string name="settings_menu_privacy_lists">Manage my privacy lists</string>
+	<string name="settings_saved_ok">Nastavení bylo úspěšně uloženo.</string>
+
+
+
+	<!-- EditSettings Activity Categories -->
+	<string name="general_preferences">Základní nastavení</string>
+	<string name="user_preferences">Účet (vyžadováno)</string>
+	<string name="user_preferences_advanced">Rozšířená nastavení uživatele (volitelné)</string>
+	<string name="network_preferences">Nastavení sítě</string>
+	<string name="proxy_proxy_settings">Nastavení proxy</string>
+	<string name="proxy_user_settings">Nastavení proxy</string>
+	<string name="history_preferences">Historie</string>
+	<string name="chat_layout_option">Rozložení chatu</string>
+
+
+	<!-- EditSettings Activity Tabs -->
+	<string name="settings_tab_tag_account">edit_settings_tab_account</string>
+	<string name="settings_tab_label_account">Account</string>
+	<string name="settings_tab_tag_xmpp">edit_settings_tab_xmpp</string>
+	<string name="settings_tab_label_xmpp">XMPP</string>
+	<string name="settings_tab_tag_proxy">edit_settings_tab_proxy</string>
+	<string name="settings_tab_label_proxy">Proxy</string>
+
+
+	<!-- wizard activities -->
+	<string name="account_wizard_text1"><b>Vítejte v aplikaci BEEM.</b>\n\nJeště nemáte nastavený žádný XMPP (Jabber) účet.\nVyberte jednu z následujících možností:</string>
+	<string name="account_wizard_configure_text_1">Použít uložiště hesel a účtů na tomto zařízení</string>
+	<string name="account_wizard_configure_text_2"><b>nebo</b></string>
+	<string name="account_wizard_configure_text_3">Vyplňte údaje pro již existující účet</string>
+	<string name="account_wizard_settings_warn"><b>Varování: </b>Vaše nastavení používají proxy server nebo specifikují jméno serveru.</string>
+	<string name="account_wizard_connection_failed"><b>Nepodařilo se ověřit váš účet. Prosím ověřte správnost jména a hesla.</b></string>
+	<string name="account_wizard_select_account_btn">Vyberte účet</string>
+	
+		<string name="account_wizard_configure_account">Již mám účet a chci jej použít pro připojení</string>
+	<string name="account_wizard_create_account">Chci si zaregistrovat nový účet</string>
+
+	<!-- Create an account Activity -->
+	<string name="create_account_text">Vyplňe položky nutné pro vytvoření vašeho nového účtu</string>
+	<string name="create_account_progress_title">Vytváření účtu</string>
+	<string name="create_account_progress_message">Prosím čekejte</string>
+	<string name="create_account_err_username">Neplatné JabberID</string>
+	<string name="create_account_err_passwords">Hesla se neshodují.</string>
+	<string name="create_account_username">Uživatelské jméno</string>
+	<string name="create_account_password">Heslo</string>
+	<string name="create_account_confirm_password">Heslo (znovu)</string>
+	<string name="create_account_err_conflict">Účet s tímto jménem již existuje. Prosím zkuste jiný</string>
+	<string name="create_account_err_connection">Vybraný server není dostupný. Prosím vyberte jiný</string>
+			
+
+	<!-- ContactList Activity  -->
+	<string name="contact_list_menu_add_contact">Přidat kontakt</string>
+	<string name="contact_list_menu_status">Změnit status</string>
+	<string name="contact_list_menu_settings">Nastavení</string>
+	<string name="contact_list_menu_disconnect">Odpojit</string>
+	<string name="contact_list_all_contact">Všechny kontakty</string>
+	<string name="contact_list_no_group">Nezařazené</string>
+
+	<!-- UserInfo dialog -->
+	<string name="userinfo_label_alias">Přezdívka</string>
+	<string name="userinfo_label_chg_group">Spravovat skupiny</string>
+	<string name="userinfo_label_re_subscription">Znovu poslat pozvání</string>
+	<string name="userinfo_label_block">Blokovat</string>
+	<string name="userinfo_label_delete">Smazat</string>
+	<string name="userinfo_resend">Suscription resend</string>
+	<string name="userinfo_sure2delete">Jste si jist že chcete smazat tento kontakt?
+	</string>
+	<string name="userinfo_yes">Ano</string>
+	<string name="userinfo_no">Ne</string>
+	<string name="userinfo_sureresend">Opravdu chcete znovu poslat pozvánku?</string>
+
+	<string name="chat_name">Beem - Chat</string>
+	<string name="chat_input_default_value">Pište zprávu</string>
+	<string name="chat_self">Já</string>
+	<string name="chat_error">Chyba</string>
+	<string name="chat_send_message">Odeslat</string>
+	<string name="chat_menu_contacts_list">Seznam kontaktů</string>
+	<string name="chat_menu_change_chat">Přepnout chat</string>
+	<string name="chat_menu_start_otr_session">Start OTR session</string>
+	<string name="chat_menu_stop_otr_session">Stop OTR session</string>
+	<string name="chat_menu_otr_verify_key">OTR ověření klíče</string>
+	<string name="chat_menu_otr_submenu">OTR actions</string>
+	<string name="chat_dialog_change_chat_title">Otevřené chaty</string>
+	<string name="chat_menu_close_chat">Zavřít tento chat</string>
+	<string name="chat_no_more_chats">Žádné další chaty</string>
+	<string name="chat_state_composing">píše zprávu</string>
+	<string name="chat_state_gone">ukončil konverzaci</string>
+	<string name="chat_state_active">čeká na vaši odpověď</string>
+	<string name="chat_state_inactive">dělá něco jiného</string>
+	<string name="chat_otrstate_plaintext">NEŠIFROVÁNO</string>
+	<string name="chat_otrstate_encrypted">ŠIFROVÁNO</string>
+	<string name="chat_otrstate_finished">DOKONČENO</string>
+	<string name="chat_otrstate_authenticated">OVĚŘENÉ</string>
+	<string name="chat_otr_verify_key" formatted="false">
+	Ověření kontakty vám umožňuje se ujistit že osoba s kterou komunikujete je opravdu ten za koho se vydává.\n\n
+	Pro ověření fingerprintu kontaktujte druhou stranu přes nějaký <i>jiný</i> bezpečný kanál, například telefon nebo email podepsaný pomocí GPG. Měli by jste si vzájemě vyměnit fingerprint.\n\n
+	Pokud se vše shoduje, měli by jste v dialogu výše potvrdit že jste <b>ověřili</b> fingerprint.\n\n
+	Lokální fingerprint %s\n\nFingerprint vzdálené strany %s\n\nOvěřit fingerprint ?</string>
+
+	<string name="contact_status_msg_available">Dostupný</string>
+	<string name="contact_status_msg_available_chat">Dostupný a rozkecaný</string>
+	<string name="contact_status_msg_dnd">Nevyrušovat</string>
+	<string name="contact_status_msg_away">Pryč</string>
+	<string name="contact_status_msg_xa">Nedostupný</string>
+	<string name="contact_status_msg_offline">Odpojený</string>
+
+	<string name="privacy_list_name">Beem - Manage my privacy lists</string>
+	<string name="privacy_list_no_data">There aren\'t any privacy list registered.</string>
+	<string name="privacy_list_menu_create">Create a privacy list</string>
+	<string name="privacy_list_create_dialog_title">Create a privacy list</string>
+	<string name="privacy_list_create_dialog_list_name_label">Title</string>
+	<string name="privacy_list_create_dialog_create_button">Vytvořit</string>
+	<string name="privacy_list_select_dialog_buddies">Kontakty</string>
+	<string name="privacy_list_select_dialog_groups">Skupiny</string>
+	<string name="privacy_list_select_dialog_delete">Smazat</string>
+	<string name="privacy_list_delete_dialog_msg">Do you really want to delete the privacy list entitled \'%s\'?</string>
+	<string name="privacy_list_delete_dialog_yes">Ano</string>
+	<string name="privacy_list_delete_dialog_no">Ne</string>
+
+	<string name="UpdateButton">Aktualizovat</string>
+
+	<!-- MemorizingTrustManager library -->
+	<string name="mtm_accept_cert">Přijmout neznámý certifikát?</string>
+	<string name="mtm_decision_always">Vždy</string>
+	<string name="mtm_decision_once">Jednou</string>
+	<string name="mtm_decision_abort">Odmítnout</string>
+
+	<string name="mtm_notification">Ověření certifikátu</string>
+
+	<!-- Error messages -->
+
+	<string name="error_login_authentication">Chyba při ověřování, chybné jméno uživatele nebo heslo.</string>
+
+	<string name="interna_server_error">Chyba na straně serveru</string>
+	<string name="bad_request">bad-request</string>
+	<string name="forbidden">forbidden</string>
+	<string name="item_not_found">item-not-found</string>
+	<string name="conflict">conflict</string>
+	<string name="feature_not_implemented">feature-not-implemented</string>
+	<string name="gone">gone</string>
+	<string name="jid_malformed">jid-malformed</string>
+	<string name="no_acceptable">no-acceptable</string>
+	<string name="not_allowed">not-allowed</string>
+	<string name="not_authorized">not-authorized</string>
+	<string name="payment_required">payment-required</string>
+	<string name="recipient_unavailable">recipient-unavailable</string>
+	<string name="redirect">redirect</string>
+	<string name="registration_required">registration-required</string>
+	<string name="remote_server_not_found">Server nenalezen</string>
+	<string name="remote_server_timeout">Server neodpovídá</string>
+	<string name="remote_server_error">Chyba na straně serveru</string>
+	<string name="resource_constraint">resource-constraint</string>
+	<string name="service_unavailable">service-unavailable</string>
+	<string name="subscription_required">subscription-required</string>
+	<string name="undefined_condition">undefined-condition</string>
+	<string name="unexpected_condition">unexpected-condition</string>
+	<string name="request_timeout">request-timeout</string>
+</resources>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="fill_parent" android:layout_width="fill_parent"
+    android:orientation="vertical" >
+    <ScrollView android:layout_height="fill_parent" android:layout_width="fill_parent" 
+	android:layout_weight="1">
+	<LinearLayout android:layout_height="wrap_content" android:layout_width="fill_parent"
+	    android:orientation="vertical" >
+	    <ImageView android:id="@+id/logo"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:layout_marginTop="15dp"
+		android:layout_marginBottom="30dp"
+		android:src="@drawable/logo"/>
+		<LinearLayout android:id="@+id/account_layout"  
+		    android:layout_height="wrap_content" android:layout_width="fill_parent"
+	    	android:orientation="vertical" >
+		    <TextView
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:text="@string/account_wizard_configure_text_1"
+			android:textSize="18sp"
+			android:paddingBottom="10dip" />
+		    <Button
+	            android:id="@+id/select_account_btn"
+	            android:layout_height="wrap_content"
+	            android:layout_width="wrap_content"
+	            android:text="@string/account_wizard_select_account_btn"
+	            android:minWidth="100dp"
+	            />
+		    <TextView
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:gravity="center_horizontal"
+			android:text="@string/account_wizard_configure_text_2"
+			android:textSize="18sp"
+			android:paddingBottom="10dip" />
+		</LinearLayout>
+	    <TextView
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:text="@string/account_wizard_configure_text_3"
+		android:textSize="18sp"
+		android:paddingBottom="10dip" />
+	    <TextView
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:text="@string/JabberID" style="@style/Label" />
+	    <EditText android:id="@+id/account_username"
+		android:inputType="textEmailAddress" android:imeOptions="actionNext"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:singleLine="true" 
+		android:hint="beem@beem-project.com "
+		android:contentDescription="@string/JabberID"/>
+	    <TextView
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:text="@string/Password" style="@style/Label" />
+	    <EditText android:id="@+id/account_password"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:inputType="textPassword" android:imeOptions="actionNext"
+		android:password="true" android:singleLine="true"
+		android:contentDescription="@string/Password"/>
+	    <TextView android:id="@+id/settings_warn_label" style="@style/Label"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:text="@string/account_wizard_settings_warn"
+		android:inputType="textMultiLine|textNoSuggestions"
+		android:textColor="@color/white"
+		android:textStyle="normal"
+		android:visibility="gone" />
+	    <TextView android:id="@+id/error_label" style="@style/Label"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:text="@string/account_wizard_connection_failed"
+		android:inputType="textMultiLine|textNoSuggestions"
+		android:textColor="@color/red"
+		android:visibility="invisible" />
+	</LinearLayout>
+    </ScrollView>
+
+    <RelativeLayout
+	android:gravity="right"
+	android:layout_height="wrap_content"
+	android:layout_width="fill_parent"
+	android:background="@drawable/bottombar" >
+
+	<Button
+            android:id="@+id/manual_setup"
+            android:text="@string/AccountConfigureManualConfiguration"
+            android:minWidth="100dp"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            />
+
+	<Button
+	    android:id="@+id/next"
+	    android:text="@string/Continue"
+	    android:minWidth="100dp"
+	    android:layout_height="wrap_content"
+	    android:layout_width="wrap_content"
+	    android:drawableRight="@drawable/button_indicator_next"
+	    android:layout_alignParentRight="true"
+	    android:layout_centerVertical="true"
+	    android:enabled="false"
+	    />
+    </RelativeLayout>
+
+</LinearLayout>
