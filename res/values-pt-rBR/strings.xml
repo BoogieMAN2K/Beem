@@ -18,7 +18,7 @@
 	<string name="BeemJabberID">Jabber ID</string>
 
 	<!--  BeemApplication class -->
-	<string name="BeemApplicationConnect">Conectando...</string>
+	<string name="BeemApplicationConnect">Conectando…</string>
 
 	<!--  BeemService class -->
 	<string name="BeemServiceDescription">Utilizar Serviço Beem</string>
@@ -131,7 +131,7 @@
 	<string name="history_mount">Você precisa ter um cartão SD montado e com permissão de escrita para habilitar o histórico</string>
 	<string name="history_on_off">Habilita histórico de mensagens</string>
 	<string name="chat_preferences">Conversa</string>
-	<string name="chat_preferences_sum">Histórico, Tamanho do layout ...</string>
+	<string name="chat_preferences_sum">Histórico, Tamanho do layout …</string>
 	<string name="chat_history_path">Caminho do histórico</string>
 	<string name="chat_history_path_sum">Conversas serão gravadas em uma pasta no cartão SD</string>
 	<string name="settings_smack_debug">Habilitar debug XMPP</string>
@@ -185,7 +185,7 @@
 	<string name="login_about_button">Fechar</string>
 	<string name="login_settings_button">Configurações</string>
 	<string name="login_login_button">Entrar</string>
-	<string name="login_login_progress">Conectando. Aguarde...</string>
+	<string name="login_login_progress">Conectando. Aguarde…</string>
 	<string name="login_error_msg">Infelizmente, ocorreu um erro.\n\nDetalhes
 		do erro:\n%s</string>
 	<string name="login_menu_login">Login</string>
@@ -193,8 +193,8 @@
 	<string name="login_start_msg">Configurações incorretas</string>
 
 	<!-- LoginAnim activity -->
-	<string name="loganim_connecting">Conectando ...</string>
-	<string name="loganim_authenticating">Autenticando ...</string>
+	<string name="loganim_connecting">Conectando …</string>
+	<string name="loganim_authenticating">Autenticando …</string>
 	<string name="loganim_login_success">Entrou com sucesso</string>
 	<string name="loganim_login_failed">Falha no login</string>
 
@@ -226,7 +226,7 @@
 
 
 	<!-- wizard activities -->
-	<string name="account_wizard_text1"><b>Bem vindo ao BEEM.</b>\n\nVocê ainda não configurou uma conta XMPP (Jabber).\nEscolha uma das opções :</string>
+	<string name="account_wizard_text1"><b>Bem-vindo ao BEEM.</b>\n\nVocê ainda não configurou uma conta XMPP (Jabber).\nEscolha uma das opções :</string>
 	<string name="account_wizard_configure_text"><b>Por favor, preencha os dados da sua conta</b></string>
 	<string name="account_wizard_configure_account">Eu já tenho uma conta</string>
 	<string name="account_wizard_create_account">Quero criar uma conta</string>

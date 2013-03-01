@@ -47,6 +47,7 @@ package com.beem.project.beem.ui;
 import java.io.File;
 import java.text.SimpleDateFormat;
 import java.util.Date;
+import java.util.Locale;
 
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -184,7 +185,7 @@ public class ChangeStatus extends Activity {
 	mAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
 	mSpinner.setAdapter(mAdapter);
 
-	mToast = Toast.makeText(this, R.string.ChangeStatusOk, Toast.LENGTH_LONG);
+	//mToast = Toast.makeText(this, R.string.ChangeStatusOk, Toast.LENGTH_LONG);
 	mSpinner.setSelection(getPreferenceStatusIndex());
 
 	this.registerReceiver(mReceiver, new IntentFilter(BeemBroadcastReceiver.BEEM_CONNECTION_CLOSED));
@@ -420,7 +421,7 @@ public class ChangeStatus extends Activity {
      */
     private String getPhotoFileName() {
         Date date = new Date(System.currentTimeMillis());
-        SimpleDateFormat dateFormat = new SimpleDateFormat("'IMG'_yyyyMMdd_HHmmss");
+        SimpleDateFormat dateFormat = new SimpleDateFormat("'IMG'_yyyyMMdd_HHmmss", Locale.US);
         return dateFormat.format(date) + ".jpg";
     }
 

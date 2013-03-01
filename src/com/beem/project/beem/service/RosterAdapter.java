@@ -50,6 +50,7 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
 
+import android.annotation.SuppressLint;
 import android.content.Context;
 import android.os.RemoteCallbackList;
 import android.os.RemoteException;
@@ -282,7 +283,7 @@ public class RosterAdapter extends com.beem.project.beem.service.aidl.IRoster.St
      * @param context The context of the roster adapter.
      * @return A Map<Integer, String> which assigns a status to a message.
      */
-    private Map<Integer, String> createDefaultStatusMessagesMap(Context context) {
+    @SuppressLint("UseSparseArrays") private Map<Integer, String> createDefaultStatusMessagesMap(Context context) {
 	Map<Integer, String> defaultStatusMessages = new HashMap<Integer, String>();
 	defaultStatusMessages.put(Status.CONTACT_STATUS_AVAILABLE, context
 	    .getString(R.string.contact_status_msg_available));
