@@ -41,7 +41,6 @@ import net.java.otr4j.OtrPolicy;
 import net.java.otr4j.OtrPolicyImpl;
 import net.java.otr4j.session.SessionID;
 import net.java.otr4j.session.SessionStatus;
-import android.os.Environment;
 import android.util.Log;
 
 import com.beem.project.beem.service.ChatAdapter;
@@ -68,9 +67,8 @@ public class BeemOtrManager implements OtrEngineHost {
     private BeemOtrManager() {
 	mOtrEngine = new OtrEngineImpl(this);
 	mOtrEngine.addOtrEngineListener(new BeemOtrListener());
-	String sdcard = Environment.getExternalStorageDirectory().getPath();
 	try {
-			mOtrKeyManager = new OtrKeyManagerImpl(sdcard + "/catdroid.keystore");
+	    mOtrKeyManager = new OtrKeyManagerImpl("/sdcard/beem.keystore");
 	} catch (IOException e) {
 	    e.printStackTrace();
 	}

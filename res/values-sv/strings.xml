@@ -18,7 +18,7 @@
 <string name="BeemJabberID">Jabber-ID</string>
 
 <!--  BeemApplication class -->
-<string name="BeemApplicationConnect">Ansluter…</string>
+<string name="BeemApplicationConnect">Ansluter...</string>
 
 <!--  BeemService class -->
 <string name="BeemServiceDescription">Använda tjänsten Beem</string>
@@ -185,7 +185,7 @@ http://www.beem-project.com !
 <string name="login_about_button">Stäng</string>
 <string name="login_settings_button">Inställningar</string>
 <string name="login_login_button">Logga in</string>
-<string name="login_login_progress">Ansluter. Vänta…</string>
+<string name="login_login_progress">Ansluter. Vänta...</string>
 <string name="login_error_msg">Unfortunately, an error occured.\n\nError
 detail:\n%s</string>
 <string name="login_menu_login">Logga in</string>
@@ -193,8 +193,8 @@ detail:\n%s</string>
 <string name="login_start_msg">Inställningar i menyn</string>
 
 <!-- LoginAnim activity -->
-<string name="loganim_connecting">Ansluter…</string>
-<string name="loganim_authenticating">Verifierar…</string>
+<string name="loganim_connecting">Ansluter...</string>
+<string name="loganim_authenticating">Verifierar...</string>
 <string name="loganim_login_success">Inloggningen lyckades</string>
 <string name="loganim_login_failed">Inloggningen misslyckades</string>
 

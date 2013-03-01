@@ -18,7 +18,7 @@
 <string name="BeemJabberID">Jabber-ID</string>
 
 <!--  BeemApplication class -->
-<string name="BeemApplicationConnect">Kobler til…</string>
+<string name="BeemApplicationConnect">Kobler til ...</string>
 
 <!--  BeemService class -->
 <string name="BeemServiceDescription">Bruk Beem tjeneste </string>
@@ -131,7 +131,7 @@
 <string name="history_mount">Du trenger et montert og skrivebart minnekort for å kunne aktivere historikk</string>
 <string name="history_on_off">Aktiver historikk</string>
 <string name="chat_preferences">Prat</string>
-<string name="chat_preferences_sum">Historikk, utseende …</string>
+<string name="chat_preferences_sum">Historikk, utseende ...</string>
 <string name="chat_history_path">Sti til historikk</string>
 <string name="chat_history_path_sum">Samtaler lagres i en mappe på minnekortet</string>
 <string name="settings_smack_debug">Aktiver XMPP feilsøking</string>
@@ -185,7 +185,7 @@ http://www.beem-project.com !
 <string name="login_about_button">Lukk</string>
 <string name="login_settings_button">Innstillinger</string>
 <string name="login_login_button">Logg inn</string>
-<string name="login_login_progress">Kobler til …</string>
+<string name="login_login_progress">Kobler til ...</string>
 <string name="login_error_msg">Unfortunately, an error occured.\n\nError
 detail:\n%s</string>
 <string name="login_menu_login">Innlogging</string>
@@ -193,8 +193,8 @@ detail:\n%s</string>
 <string name="login_start_msg">Innstillinger i menyen</string>
 
 <!-- LoginAnim activity -->
-<string name="loganim_connecting">Kobler til …</string>
-<string name="loganim_authenticating">Autentiserer …</string>
+<string name="loganim_connecting">Kobler til ...</string>
+<string name="loganim_authenticating">Autentiserer ...</string>
 <string name="loganim_login_success">Innlogging vellykket</string>
 <string name="loganim_login_failed">Feil ved innlogging</string>
 
