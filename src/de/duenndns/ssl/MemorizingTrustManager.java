@@ -26,6 +26,7 @@
  */
 package de.duenndns.ssl;
 
+import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.app.Application;
 import android.app.Notification;
@@ -80,7 +81,7 @@ public class MemorizingTrustManager implements X509TrustManager {
 	Activity foregroundAct;
 	NotificationManager notificationManager;
 	private static int decisionId = 0;
-	private static HashMap<Integer, MTMDecision> openDecisions = new HashMap<Integer, MTMDecision>();
+	@SuppressLint("UseSparseArrays") private static HashMap<Integer, MTMDecision> openDecisions = new HashMap<Integer, MTMDecision>();
 
 	Handler masterHandler;
 	private File keyStoreFile;

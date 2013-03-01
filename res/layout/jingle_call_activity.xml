@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
 	android:layout_width="fill_parent" android:layout_height="wrap_content"
-	android:orientation="vertical">
+	android:orientation="vertical" xmlns:tools="http://schemas.android.com/tools">
 <!--         <TextView android:text="Jid:" android:id="@+id/jingledemocalljidlabel"
 		android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
 	<EditText android:id="@+id/jingledemocalljid"
@@ -19,7 +19,13 @@
 <EditText android:text="" android:id="@+id/jingledemocallreceiver" android:layout_width="fill_parent" android:layout_height="wrap_content"></EditText>
 
 <Button android:text="Call" android:id="@+id/jingledemocallbutton" android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>       -->
-<ImageView android:id="@+id/log_as_logo"
-    android:layout_width="fill_parent" android:layout_height="wrap_content"
-    android:layout_marginBottom="25px" android:layout_marginTop="42px" />
+
+<ImageView
+    android:id="@+id/log_as_logo"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="25dp"
+    android:layout_marginTop="42dp"
+    tools:ignore="ContentDescription" />
+
 </LinearLayout>

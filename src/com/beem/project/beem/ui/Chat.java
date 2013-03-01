@@ -52,6 +52,10 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+import org.jivesoftware.smack.packet.Presence.Mode;
+import org.jivesoftware.smack.util.StringUtils;
+
+import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.app.Dialog;
 import android.content.ComponentName;
@@ -91,9 +95,7 @@ import android.widget.ListView;
 import android.widget.TextView;
 
 import com.android.mms.util.SmileyParser;
-
 import com.beem.project.beem.BeemApplication;
-import com.beem.project.beem.R;
 import com.beem.project.beem.providers.AvatarProvider;
 import com.beem.project.beem.service.Contact;
 import com.beem.project.beem.service.Message;
@@ -109,9 +111,6 @@ import com.beem.project.beem.ui.dialogs.builders.ChatList;
 import com.beem.project.beem.ui.dialogs.builders.DisplayOtrFingerprint;
 import com.beem.project.beem.utils.BeemBroadcastReceiver;
 import com.beem.project.beem.utils.Status;
-
-import org.jivesoftware.smack.packet.Presence.Mode;
-import org.jivesoftware.smack.util.StringUtils;
 
 
 /**
@@ -139,6 +138,7 @@ public class Chat extends Activity implements TextView.OnEditorActionListener {
     private ListView mMessagesListView;
     private EditText mInputField;
     private Button mSendButton;
+    @SuppressLint("UseSparseArrays") 
     private final Map<Integer, Bitmap> mStatusIconsMap = new HashMap<Integer, Bitmap>();
 
     private final List<MessageText> mListMessages = new ArrayList<MessageText>();
@@ -180,7 +180,7 @@ public class Chat extends Activity implements TextView.OnEditorActionListener {
 	mCompact = settings.getBoolean(BeemApplication.USE_COMPACT_CHAT_UI_KEY, false);
 	// UI
 	if (!mCompact) {
-	    setContentView(R.layout.chat);
+	    setContentView(R.layout.C);
 	    mContactNameTextView = (TextView) findViewById(R.id.chat_contact_name);
 	    mContactStatusMsgTextView = (TextView) findViewById(R.id.chat_contact_status_msg);
 	    mContactChatState = (TextView) findViewById(R.id.chat_contact_chat_state);

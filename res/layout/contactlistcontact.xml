@@ -1,31 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="fill_parent"
-    android:layout_height="wrap_content" android:paddingLeft="10dp"
-    android:paddingRight="10dp" android:paddingTop="8dp"
-    android:paddingBottom="8dip" >
-    <ImageView android:id="@+id/avatar"
-	android:layout_width="48dip" android:layout_height="48dip"
-	android:layout_alignParentLeft="true"
-	android:layout_alignParentTop="true"
-	/>
-    <TextView android:id="@+id/contactlistpseudo"
-	android:layout_width="fill_parent" android:layout_height="wrap_content"
-	android:layout_alignParentTop="true"
-	android:layout_toRightOf="@id/avatar"
-	android:singleLine="true"
-	android:maxLines="1"
-	android:paddingLeft="10dp"
-	android:textAppearance="?android:attr/textAppearanceMedium"
-	android:textStyle="bold" />
+    android:layout_height="wrap_content"
+    android:paddingBottom="8dip"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="8dp" >
 
-    <TextView android:id="@+id/contactlistmsgperso"
-	android:layout_width="fill_parent" android:layout_height="wrap_content"
-	android:layout_below="@id/contactlistpseudo"
-	android:layout_toRightOf="@id/avatar"
-	android:paddingLeft="10dp" android:singleLine="true"
-	android:maxLines="1" android:linksClickable="false" android:autoLink="all"
-	android:scrollHorizontally="true" android:textColorLink="@color/white"
-	android:textAppearance="?android:attr/textAppearanceSmall"
-	/>
+    <ImageView
+        android:id="@+id/avatar"
+        android:layout_width="48dip"
+        android:layout_height="48dip"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/contactlistpseudo"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@id/avatar"
+        android:maxLines="1"
+        android:paddingLeft="10dp"
+        android:singleLine="true"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textIsSelectable="false"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/contactlistmsgperso"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/contactlistpseudo"
+        android:layout_toRightOf="@id/avatar"
+        android:autoLink="all"
+        android:linksClickable="false"
+        android:maxLines="1"
+        android:paddingLeft="10dp"
+        android:scrollHorizontally="true"
+        android:singleLine="true"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColorLink="@color/white"
+        android:textIsSelectable="false" />
+
 </RelativeLayout>

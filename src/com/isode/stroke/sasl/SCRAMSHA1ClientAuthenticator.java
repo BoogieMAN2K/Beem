@@ -8,6 +8,8 @@
  */
 package com.isode.stroke.sasl;
 
+import android.annotation.TargetApi;
+import android.os.Build;
 import com.isode.stroke.base.ByteArray;
 import com.isode.stroke.stringcodecs.Base64;
 import com.isode.stroke.stringcodecs.HMACSHA1;
@@ -124,7 +126,7 @@ public class SCRAMSHA1ClientAuthenticator extends ClientAuthenticator {
         }
     }
 
-    private String SASLPrep(String source) {
+    @TargetApi(Build.VERSION_CODES.GINGERBREAD) private String SASLPrep(String source) {
         return Normalizer.normalize(source, Form.NFKC); /* FIXME: Implement real SASLPrep */
     }
 
@@ -159,7 +161,7 @@ public class SCRAMSHA1ClientAuthenticator extends ClientAuthenticator {
         return new ByteArray("n=" + escape(authenticationID) + ",r=" + clientnonce);
     }
 
-    private ByteArray getGS2Header() {
+    @TargetApi(Build.VERSION_CODES.GINGERBREAD) private ByteArray getGS2Header() {
 
         ByteArray channelBindingHeader = new ByteArray("n");
 	if (tlsChannelBindingData != null) {

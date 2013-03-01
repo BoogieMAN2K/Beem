@@ -18,7 +18,7 @@
 <string name="BeemJabberID">Jabber ID</string>
 
 <!--  BeemApplication class -->
-<string name="BeemApplicationConnect">Соединение...</string>
+<string name="BeemApplicationConnect">Соединение…</string>
 
 <!--  BeemService class -->
 <string name="BeemServiceDescription">Использовать сервис Beem</string>
@@ -53,7 +53,7 @@
 <string name="MenuAccountAbout">О проекте Beem</string>
 <string name="MenuAccountCreate">Создать аккаунт</string>
 <string name="MenuConnection">Изменить аккаунт</string>
-<string name="ChangeStatusOk">Обновление статуса...</string>
+<string name="ChangeStatusOk">Обновление статуса…</string>
 <string name="ChangeStatusNoChange">Ничего не изменилось</string>
 <string name="my_avatar">Мой аватар</string>
 <string name="select_avatar">Выберите свой аватар</string>
@@ -128,7 +128,7 @@
 <string name="history_mount">Для сохранения истории необходима установленная SD карта с разрешённой записью</string>
 <string name="history_on_off">Разрешить сохранение истории</string>
 <string name="chat_preferences">Диалог</string>
-<string name="chat_preferences_sum">История, размер  диалога...</string>
+<string name="chat_preferences_sum">История, размер  диалога…</string>
 <string name="chat_history_path">Путь к истории</string>
 <string name="chat_history_path_sum">Путь к сохраняемым диалогам на SD карте</string>
 <string name="settings_smack_debug">Разрешить отладку XMPP</string>
@@ -179,15 +179,15 @@
 <string name="login_about_button">Закрыть</string>
 <string name="login_settings_button">Настройки</string>
 <string name="login_login_button">Войти</string>
-<string name="login_login_progress">Соединение. Пожалуйста, подождите...</string>
+<string name="login_login_progress">Соединение. Пожалуйста, подождите…</string>
 <string name="login_error_msg">К сожалению, произошла ошибка.\n\nПодробности:\n%s</string>
 <string name="login_menu_login">Войти</string>
 <string name="login_no_connectivity">Интернет соединение не найдено</string>
 <string name="login_start_msg">Настройки в меню</string>
 
 <!-- LoginAnim activity -->
-<string name="loganim_connecting">Соединение...</string>
-<string name="loganim_authenticating">Аутентификация...</string>
+<string name="loganim_connecting">Соединение…</string>
+<string name="loganim_authenticating">Аутентификация…</string>
 <string name="loganim_login_success">Вход выполнен</string>
 <string name="loganim_login_failed">Не удалось войти</string>
 
